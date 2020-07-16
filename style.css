@@ -1,0 +1,72 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+#background  {
+  background-image: url(https://www.animalz.co/wp-content/uploads/2018/04/audience-content-marketing.jpg);
+  position: fixed;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+#container {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  border: .4vh solid black;
+  margin: 0 1vh;
+  padding: 0 1vw;
+  border-radius: .5vh;
+  text-align: center;
+  color: white;
+  outline: black;
+  text-shadow: 0pt 0pt 7pt black;
+}
+
+p {
+  margin: 1vh;
+  font-weight: bold;
+}
+
+p:first-child {
+  font-size: 3vh;
+  color: white;
+}
+
+p:last-child {
+  font-size: 1.2vh;
+  color: rgb(245, 174, 41);
+}
+
+/* styling when the button is activated */
+.active {
+  animation-name: active;
+  animation-duration: .3s;
+  animation-fill-mode: both;
+}
+
+@keyframes active {
+  0% {
+  }
+  50% {
+    transform: Scale(1.1);
+    border-color: yellow;
+    box-shadow: 0 0 2vh yellow;
+  }
+  100% {
+
+  }
+}
