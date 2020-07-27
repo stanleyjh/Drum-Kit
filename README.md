@@ -1,4 +1,3 @@
 # Drum-Kit
-Play the drums with your keyboard! 
 
-sirsavant.github.io/drum-kit/
+[Play the drums with your keyboard!](sirsavant.github.io/drum-kit/)
